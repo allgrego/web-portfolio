@@ -5,12 +5,10 @@ const Header = () => {
     return ( 
         <header id="header">
             <div className="inner">
-                <a href="#" className="image avatar"><Image src="/images/avatar.jpg" width="100%" height="100%" 
-                layout="responsive"
+                <a href="#" id="avatar" className="image avatar"><Image src="/images/avatar.jpg" width="100%" height="100%" 
+                layout="responsive" quality="50"
                 alt=""></Image></a>
-                <h1><strong>Hi, I'm Gregorio</strong>.<br/> A super simple
-                responsive site template freebie<br />
-                crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+                <h1><strong>Hola, soy Gregorio</strong>.<br/> Desarrollador Web y Programador freelance.<br/></h1>
             </div>
         </header>
      );

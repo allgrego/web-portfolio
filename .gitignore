@@ -35,3 +35,4 @@ yarn-error.log*
 
 # custom 
 _index.js
+.vscode/
