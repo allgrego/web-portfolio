@@ -26,14 +26,14 @@ const MyWork = () => {
         {
             id: 3,
             name: "Página principal de proyecto HUC-OASIS",
-            description: "Página web principal de proyecto de Registro Médico Electrónico (EMR) implementado en el Hospital Universitario de Caracas por investigadores de la Universidad Simón Bolívar (USB). Hecho con HTML, CSS y Javascript",
+            description: "Página web principal de proyecto de Registro Médico Electrónico (EMR) implementado en el Hospital Universitario de Caracas por investigadores de la Universidad Simón Bolívar (USB).",
             specifications: "Desarrollador de front-end. Creado con HTML, CSS y Javascript",
             url: "https://huc-oasis.health",
             img: "03.jpg"
         },
         {
             id: 4,
-            name: "Portal de Pagos de Laboratorio InmunoXXI",
+            name: "Portal de pagos de Laboratorio InmunoXXI",
             description: "Portal de pagos de los distintos exámenes, perfiles y servicios que ofrece el laboratorio.",
             specifications: "Desarrollador de front-end. Creado con Wordpress",
             url: "https://portal.inmuno21.com",
@@ -57,7 +57,7 @@ const MyWork = () => {
         },
         {
             id: 7,
-            name: "Mi Portafolio",
+            name: "Mi portafolio",
             description: "Actual portafolio de proyectos web realizados",
             specifications: 'Creado con Next.js',
             img: "07.jpg"

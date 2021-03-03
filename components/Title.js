@@ -14,7 +14,7 @@ const Title = () => {
     return ( 
     <section id="title">
         <header className="major align-center">
-            <h2>¿Estás buscando un desarrollador web?</h2>
+            <h2>¿Necesitas una aplicación o sitio web?</h2>
         </header>
         <Paragraph>
             Soy un desarrollador web y programador freelance de Caracas, Venezuela. Hago aplicaciones y sitios web con HTML+CSS+Javascript, Laravel y React.js/Next.js.
