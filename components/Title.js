@@ -20,7 +20,7 @@ const Title = () => {
             Soy un desarrollador web y programador freelance de Caracas, Venezuela. Hago aplicaciones y sitios web con HTML+CSS+Javascript, Laravel y React.js/Next.js.
         </Paragraph>
         <Paragraph>
-        ¿Quieres saber más? Puedes ver mi <a href="#linkedin"> Linkedin</a>.
+        ¿Quieres saber más? Puedes ver mi <a target="_blank" href="https://www.linkedin.com/in/gregorio-alvarez-martinez-6a561a124/"> Linkedin</a>.
         </Paragraph>
         <ul className="actions">
             <li><Link href="#mywork"><span className="button small primary" css={css` font-weight: 700;`}>
