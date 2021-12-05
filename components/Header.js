@@ -8,7 +8,7 @@ const Header = () => {
                 <a href="#" id="avatar" className="image avatar"><Image src="/images/avatar.jpg" width="100%" height="100%" 
                 layout="responsive" quality="50"
                 alt=""></Image></a>
-                <h1><strong>Hola, soy Gregorio</strong>.<br/> Desarrollador Web y Programador freelance.<br/></h1>
+                <h1><strong>Hola, soy Gregorio</strong>.<br/> Desarrollador Web.<br/></h1>
             </div>
         </header>
      );

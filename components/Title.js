@@ -14,17 +14,17 @@ const Title = () => {
     return ( 
     <section id="title">
         <header className="major align-center">
-            <h2>¿Necesitas una aplicación o sitio web?</h2>
+            <h2>Mi portafolio</h2>
         </header>
         <Paragraph>
-            Soy un desarrollador web y programador freelance de Caracas, Venezuela. Hago aplicaciones y sitios web con HTML+CSS+Javascript, Laravel y React.js/Next.js.
+            Soy un desarrollador web de Caracas, Venezuela. A continuación podrás ver un poco de mi trabajo <small className="small text-muted">(al menos de lo que puedo mostrar)</small>:
         </Paragraph>
-        <Paragraph>
+        {/* <Paragraph>
         ¿Quieres saber más? Puedes ver mi <a target="_blank" href="https://www.linkedin.com/in/gregorio-alvarez-martinez-6a561a124/"> Linkedin</a>.
-        </Paragraph>
-        <ul className="actions">
-            <li><Link href="#mywork"><span className="button small primary" css={css` font-weight: 700;`}>
-                Mis Trabajos Recientes</span></Link></li>
+        </Paragraph> */}
+        <ul className="actions text-center">
+            {/* <li><Link href="#mywork"><span className="button small primary" css={css` font-weight: 700;`}>
+                Mis Trabajos Recientes</span></Link></li> */}
             <li><Link href="#contact"><span className="button small primary" css={css` font-weight: 700;`}
             >Contáctame</span></Link></li>
         </ul>
