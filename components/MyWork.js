@@ -12,7 +12,7 @@ const MyWork = () => {
             description: "Página principal de empresa venezolana de transporte internacional",
             specifications: "Desarrollador de Full-Stack. Tecnologías: React.js, Redux, Styled-Components, Laravel, Firebase",
             url: "https://gbalogistic.com",
-            img: "gba.jpg"
+            img: "gba-logistics.jpg"
         },
         {
             name: "Portal de pacientes Wellness Mervra",
@@ -47,21 +47,21 @@ const MyWork = () => {
             description: "Registro Médico Electrónico (EMR) en la nube de Hospital Universitario de Caracas",
             specifications: "Programador de personalizaciones. Tecnologías: PHP, MariaDB. Basado en OpenEMR",
             url: "https://huc-oasis.health/medik",
-            img: "huc-emr.jpg"
+            img: "huc-oasis-emr.jpg"
         },
         {
             name: "Portal de pacientes HUC Oasis",
             description: "Portal web en que el paciente puede ver e ingresar sus datos médicos",
             url: "https://portal.huc-oasis.health",
             specifications: "Desarrollador Full Stack. Tecnologías: React.js, Bootstrap, Laravel",
-            img: "huc-portal.jpg"
+            img: "huc-oasis-portal.jpg"
         },
         {
             name: "Damuvis App",
             description: "[Side project] Aplicación web sencilla de tendencias de películas y series",
             specifications: 'Creado con React.js y lanzado en Heroku. Powered by TMDB.',
             url: "http://damuvis.herokuapp.com/",
-            img: "damuvis.jpg"
+            img: "damuvis-app.jpg"
         },
         {
             name: "Administrador de citas",
