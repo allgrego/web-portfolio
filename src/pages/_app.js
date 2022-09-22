@@ -1,3 +1,4 @@
+// Global CSS styles
 import '../styles/main.css';
 
 function MyApp({ Component, pageProps }) {

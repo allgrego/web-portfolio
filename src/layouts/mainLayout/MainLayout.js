@@ -1,34 +1,37 @@
 import React from 'react';
 import Head from 'next/head';
-import {Global, css} from '@emotion/react';
-import Header from '../Header';
-import Footer from '../Footer';
-import ContentLayout from './ContentLayout';
+
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 
 
-const MainLayout = (props) => {
+const MainLayout = ({children}) => {
+
     return (  
         <> 
           <Head>
               <title>Portfolio - Gregorio Alvarez</title>
               <meta charSet="utf-8" />
               <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-          </Head>
-        
+          </Head>     
           
-            {/*<!-- Header -->*/}
+            {/* Header */}
             <Header/>
+
             <body className="">  
             {/* Content */}
-            <ContentLayout>
-              {props.children}
-            </ContentLayout>
+            <div id="main">
+              {children}
+            </div>
+            
             </body>
-            {/*<!-- Footer -->*/}
+
+            {/* Footer */}
             {<Footer/>}
             
-            {/* Scripts */}
+            {/* Public scripts */}
+            {/* TODO: Correct this. It is not an ideal way to do this, but it works */}
             <script src="/js/jquery.min.js"></script>
             <script src="/js/jquery.poptrox.min.js"></script>
             <script src="/js/browser.min.js"></script>
