@@ -1,22 +1,6 @@
 import React from 'react';
-import styled from '@emotion/styled';
 import Link from 'next/link';
-import {css} from '@emotion/react';
-
-const Paragraph = styled.p`
-    text-indent: 1rem;
-    text-align: justify;
-`;
-
-const Pseudolink = styled.span`
-    text-decoration: underline;
-    color: var(--green);
-    cursor: pointer;
-
-    &:hover{
-        color: var(--light-green);
-    }
-`;
+import { Paragraph, Pseudolink } from './styledComponents';
 
 const Contact = () => {
     return (
